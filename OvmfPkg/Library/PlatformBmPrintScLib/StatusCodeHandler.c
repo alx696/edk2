@@ -205,14 +205,14 @@ HandleStatusCode (
   // Print the message to the console.
   //
   if ((Value == mLoadPrep) || (Value == mStartPrep)) {
-    Print (
-      L"%a: %a %s \"%s\" from %s\n",
-      gEfiCallerBaseName,
-      Value == mLoadPrep ? "loading" : "starting",
-      BootOptionName,
-      BmBootOption.Description,
-      DevPathString
-      );
+//     Print (
+//       L"%a: %a %s \"%s\" from %s\n",
+//       gEfiCallerBaseName,
+//       Value == mLoadPrep ? "loading" : "starting",
+//       BootOptionName,
+//       BmBootOption.Description,
+//       DevPathString
+//       );
   } else {
     Print (
       L"%a: failed to %a %s \"%s\" from %s: %r\n",
